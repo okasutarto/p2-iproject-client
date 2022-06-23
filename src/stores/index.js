@@ -7,7 +7,7 @@ const SUPABASE_URL = "https://klapyssbezecscyzrajq.supabase.co"
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-const baseUrl = 'http://localhost:3000'
+const baseUrl = 'https://iproject-xalapa24.herokuapp.com'
 
 export const useMainStore = defineStore({
   id: 'main',
